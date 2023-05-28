@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Roboto, system-ui, sans-serif;
+    color: #fff;
+  }
+
+  body {
+    @apply bg-background;
+  }
+
+  a,
+  button,
+  input,
+  select {
+    outline: none;
+    text-decoration: none;
+  }
+
+  .base-grid {
+    max-width: 1122px;
+    margin: 0 auto;
+  }
+
+}

@@ -1,6 +1,6 @@
 import Banner from "./components/banner";
 import Header from "./components/header";
-import Product from "./components/product";
+import ProductList from "./components/productList";
 import "./styles/index.css";
 
 function App() {
@@ -13,9 +13,8 @@ function App() {
           <h3 className="font-baloo text-[32px] text-base-subtitle font-black mb-[54px]">
             Nossos cafés
           </h3>
-        <Product />
+          <ProductList />
         </div>
-
       </div>
     </>
   );

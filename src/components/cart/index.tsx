@@ -51,7 +51,7 @@ function Cart({ open, setOpen, products }: Props) {
                   </h2>
                   <div className="flex gap-2 items-center">
                     <ValueSelector
-                      value={item.amount || 0}
+                      value={value}
                       setValue={setValue}
                       processLeft={true}
                     />

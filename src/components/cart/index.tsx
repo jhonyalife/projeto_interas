@@ -9,7 +9,7 @@ interface Props {
 }
 
 function Cart({ open, setOpen, products }: Props) {
-  const [value, setValue] = useState(1);
+  const [, setValue] = useState(1);
   return (
     <div>
       <div
@@ -51,7 +51,7 @@ function Cart({ open, setOpen, products }: Props) {
                   </h2>
                   <div className="flex gap-2 items-center">
                     <ValueSelector
-                      value={value}
+                      value={item.amount || 0}
                       setValue={setValue}
                       processLeft={true}
                     />
